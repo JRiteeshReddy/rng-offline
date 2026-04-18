@@ -207,7 +207,7 @@ function About() {
       <div className="grid gap-16 md:grid-cols-2 md:gap-24">
         <div>
           <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-            Ertish Jayrithish<br />
+            J Riteesh<br />
             <span className="text-muted-foreground">Reddy</span>
           </h2>
         </div>
