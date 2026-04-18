@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "RNG Offline by Ertish Jayrithish Reddy. A powerful, offline random number generator designed for performance, reliability, and seamless integration into your routines.",
+          "RNG Offline by J Riteesh Reddy. A powerful, offline random number generator designed for performance, reliability, and seamless integration into your routines.",
       },
       { property: "og:title", content: "RNG Offline — Building tools for modern magicians" },
       {
@@ -207,7 +207,7 @@ function About() {
       <div className="grid gap-16 md:grid-cols-2 md:gap-24">
         <div>
           <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-            Ertish Jayrithish<br />
+            J Riteesh<br />
             <span className="text-muted-foreground">Reddy</span>
           </h2>
         </div>
@@ -276,7 +276,7 @@ function Footer() {
   return (
     <footer className="border-t border-border py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-xs text-muted-foreground sm:flex-row">
-        <p>© {new Date().getFullYear()} Ertish Jayrithish Reddy. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} J Riteesh Reddy. All rights reserved.</p>
         <p>RNG Offline · v1.0</p>
       </div>
     </footer>
