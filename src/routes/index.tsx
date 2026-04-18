@@ -218,23 +218,23 @@ function About() {
           </p>
           <div className="mt-10 flex flex-col gap-3">
             <a
-              href="mailto:hello@ertish.com"
+              href="mailto:jriteeshreddy@gmail.com"
               className="group inline-flex items-center gap-3 text-sm transition-colors hover:text-foreground"
             >
               <Mail className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-foreground" />
               <span className="text-muted-foreground transition-colors group-hover:text-foreground">
-                hello@ertish.com
+                jriteeshreddy@gmail.com
               </span>
             </a>
             <a
-              href="https://instagram.com/ertish"
+              href="https://www.instagram.com/thehive.builds?igsh=MW5uajZ5OGdnNjlrdg=="
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 text-sm transition-colors hover:text-foreground"
             >
               <Instagram className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-foreground" />
               <span className="text-muted-foreground transition-colors group-hover:text-foreground">
-                @ertish
+                @thehive.builds
               </span>
             </a>
           </div>
