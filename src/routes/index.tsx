@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "RNG Offline by Ertish Jayrithish Reddy. A powerful, offline random number generator designed for performance, reliability, and seamless integration into your routines.",
+          "RNG Offline by J Riteesh Reddy. A powerful, offline random number generator designed for performance, reliability, and seamless integration into your routines.",
       },
       { property: "og:title", content: "RNG Offline — Building tools for modern magicians" },
       {
