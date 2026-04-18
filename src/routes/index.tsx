@@ -2,8 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Download, Mail, Instagram, Wifi, Zap, Sparkles, Layers, Smartphone } from "lucide-react";
 
 // === SWAP THESE TWO CONSTANTS ===
-const APK_URL = "https://example.com/rng-offline.apk"; // <-- replace with your APK URL
-const VIDEO_SRC = "/videos/tutorial.mp4"; // <-- drop your MP4 into public/videos/tutorial.mp4
+const APK_URL = "https://drive.google.com/uc?export=download&id=1uintbBfQEx80WcrHw88ouPHTInAZZFgr";
+const VIDEO_EMBED_URL = "https://www.youtube.com/embed/PFApo4pIgx4";
 // =================================
 
 export const Route = createFileRoute("/")({
@@ -182,18 +182,15 @@ function Tutorial() {
           A short, four-minute walkthrough covering everything you need to get started.
         </p>
       </div>
-      <div className="shadow-soft mt-16 overflow-hidden rounded-2xl border border-border bg-card">
+      <div className="shadow-soft mx-auto mt-16 overflow-hidden rounded-2xl bg-black">
         <div className="aspect-video w-full">
-          <video
-            controls
-            playsInline
-            preload="metadata"
-            className="h-full w-full bg-black"
-            poster=""
-          >
-            <source src={VIDEO_SRC} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+            src={VIDEO_EMBED_URL}
+            title="RNG Offline Tutorial"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="h-full w-full border-0 bg-black"
+          />
         </div>
       </div>
     </Section>
