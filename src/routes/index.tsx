@@ -276,7 +276,7 @@ function Footer() {
   return (
     <footer className="border-t border-border py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-xs text-muted-foreground sm:flex-row">
-        <p>© {new Date().getFullYear()} Ertish Jayrithish Reddy. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} J Riteesh Reddy. All rights reserved.</p>
         <p>RNG Offline · v1.0</p>
       </div>
     </footer>
