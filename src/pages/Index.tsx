@@ -1,34 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { Download, Mail, Instagram, Wifi, Zap, Sparkles, Layers, Smartphone } from "lucide-react";
 
-// === SWAP THESE TWO CONSTANTS ===
 const APK_URL = "https://drive.google.com/uc?export=download&id=1uintbBfQEx80WcrHw88ouPHTInAZZFgr";
 const VIDEO_EMBED_URL = "https://www.youtube.com/embed/PFApo4pIgx4";
-// =================================
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "RNG Offline — Building tools for modern magicians" },
-      {
-        name: "description",
-        content:
-          "RNG Offline by J Riteesh Reddy. A powerful, offline random number generator designed for performance, reliability, and seamless integration into your routines.",
-      },
-      { property: "og:title", content: "RNG Offline — Building tools for modern magicians" },
-      {
-        property: "og:description",
-        content:
-          "A simple-looking random number generator designed for performance, reliability, and seamless integration into your routines.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-  }),
-  component: Index,
-});
-
-function Index() {
+export default function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Nav />
@@ -279,8 +254,6 @@ function Footer() {
     </footer>
   );
 }
-
-/* --------------------------- helpers --------------------------- */
 
 function Section({ id, children }: { id?: string; children: React.ReactNode }) {
   return (
